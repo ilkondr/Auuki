@@ -80,7 +80,6 @@ const resources = [
     'ble/devices.js',
     'ble/enums.js',
     'ble/reactive-connectable.js',
-    'ble/reactive-connectable.js',
     'ble/service.js',
     'ble/userData.js',
     'ble/web-ble.js',
@@ -149,6 +148,7 @@ const resources = [
     'sound.js',
     'timer.js',
     'utils.js',
+    'sw.js',
     'watch.js',
 
     'manifest.webmanifest',

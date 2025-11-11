@@ -27,7 +27,7 @@ function startServiceWorker() {
 function start() {
     console.log('start app.');
 
-    // startServiceWorker(); // stable version only
+    startServiceWorker(); // stable version only
     xf.dispatch('app:start');
 }
 
@@ -41,4 +41,3 @@ export {
     start,
     stop,
 };
-
